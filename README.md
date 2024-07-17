@@ -44,7 +44,7 @@ Para instalar e executar a aplicação localmente, siga os passos abaixo:
 
 
 ## Features futuras
-[] Fazer pesquisas de textos, caso a lista esteja muito grande
-[] Aparecer um "preview" de uma foto tirada print
-[] Salvar os textos copiados
-[] Sincronizar os dados com uma aplicação web
+- [ ] Fazer pesquisas de textos, caso a lista esteja muito grande
+- [ ] Aparecer um "preview" de uma foto tirada print
+- [ ] Salvar os textos copiados
+- [ ] Sincronizar os dados com uma aplicação web
