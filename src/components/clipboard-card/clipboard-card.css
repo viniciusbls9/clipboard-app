@@ -1,0 +1,27 @@
+.cliboard-card-container {
+  padding: 20px;
+  margin: 13px 10px;
+  line-break: anywhere;
+
+  background: rgba(45, 45, 45, 0.48);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(15.2px);
+  -webkit-backdrop-filter: blur(15.2px);
+  border: 1px solid rgb(60, 60, 60);
+  border-radius: 5px;
+}
+
+.cliboard-card-container:hover {
+  border: 1px solid rgb(172, 172, 172);
+  background: rgba(97, 96, 96, 0.68);
+}
+
+.cliboard-card-container span {
+  color: white;
+}
+
+.cliboard-card-container .icon-container {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
