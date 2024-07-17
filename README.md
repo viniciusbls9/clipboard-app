@@ -15,7 +15,7 @@ src/
 ├── components/    # Componentes React da aplicação
 ├── hooks/         # Hooks personalizados
 ├── utils/         # Funções utilitárias
-├── src-tauri/     # Codigo Ruby e de configurações do TauriJS
+├── src-tauri/     # Codigo Rust e de configurações do TauriJS
 ```
 
 ## Instalação
