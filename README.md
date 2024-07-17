@@ -1,30 +1,43 @@
-# React + TypeScript + Vite
+# Clipboard
+Clipboard é uma aplicação para macOS desenvolvida com TauriJS, ReactJS, Typescript e Jest. Ela salva as informações copiadas para a área de transferência, permitindo resgatar dados previamente copiados.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tecnologias Utilizadas
+- TauriJS: Framework para criar aplicações desktop.
+- ReactJS: Biblioteca JavaScript para construir interfaces de usuário.
+- Typescript: Superset do JavaScript que adiciona tipagem estática.
+- Jest: Framework de testes em JavaScript.
 
-Currently, two official plugins are available:
+## Estrutura do Projeto
+O projeto está organizado da seguinte forma:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```sh
+src/
+├── components/    # Componentes React da aplicação
+├── hooks/         # Hooks personalizados
+├── utils/         # Funções utilitárias
+├── src-tauri/     # Codigo Ruby e de configurações do TauriJS
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Instalação
+Para instalar e executar a aplicação localmente, siga os passos abaixo:
+
+1. Clone o repositorio:
+    ```sh
+    git clone https://github.com/seu-usuario/clipboard.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```sh
+    cd clipboard
+    ```
+3. Instale as dependências:
+    ```sh
+    npm install
+    ```
+    or
+    ```sh
+    yarn install
+    ```
+4. Execute a aplicação:
+    ```sh
+    npm run test
+    ```
